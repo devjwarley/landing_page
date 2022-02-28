@@ -1,0 +1,128 @@
+@media screen and (max-width: 860px) {
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    flex-direction: column;
+  }
+  aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    margin: 0 auto;
+  }
+  input {
+    align-self: center;
+    width: 100%;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    max-width: 300px;
+  }
+  span {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  img {
+    display: none;
+  }
+  ul {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  img {
+    display: none;
+  }
+  aside {
+    margin: 0 auto;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    margin: 0 auto;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+  }
+  input {
+    align-self: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 985px) {
+  img{
+    align-self: center;
+    width: 80%;
+  }
+  span{
+    font-size: 30px;
+  }
+  aside {
+    margin: 0 auto;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    margin: 0 auto;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+  }
+  input {
+    align-self: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  img{
+    align-self: center;
+    width: 90%;
+  }
+  span{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  aside {
+    margin: 0 auto;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    margin: 0 auto;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+  }
+  input {
+    align-self: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1250px){
+  span{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 40px;
+  }
+}
